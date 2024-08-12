@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrapTech Navbar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/custom-styles.css">
+    <style>
+        /* Inline essential styles */
+        body, html, ul {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar-2 {
+            background: rgba(255, 255, 255, 0.8); /* Frosted glass effect */
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            font-family: 'PPNeueMontreal-Regular', Arial, sans-serif;
+        }
+
+        .brand img {
+            height: 50px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: #555;
+        }
+
+        .order-btn {
+            background-color: #3898EC;
+            color: white;
+            padding: 9px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .order-btn:hover {
+            background-color: #267bbd;
+        }
+
+        .language {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        .language:hover {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-2">
+        <div class="brand">
+            <a href="https://www.strap.tech/">
+                <img src="images/StrapTech-Logo-HiRes.png" alt="StrapTech Logo">
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="https://www.strap.tech/">Home</a>
+            <a href="https://www.strap.tech/the-device">How it Works</a>
+            <a href="https://www.strap.tech/a-day-with-ara">A Day with Ara</a>
+            <a href="https://www.strap.tech/testimonials">Testimonials</a>
+            <a href="https://www.strap.tech/about-us">About Us</a>
+            <a href="https://www.strap.tech/order-ara-one-step-checkout" class="order-btn">Order Ara</a>
+            <a href="https://www.strap.tech/inicio" class="language">Español</a>
+        </nav>
+    </div>
+</body>
+</html>
